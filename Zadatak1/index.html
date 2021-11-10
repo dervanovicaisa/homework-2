@@ -21,22 +21,29 @@
         <div id="main" class="card card-body">
             <h2 class="title"> Add Items</h2>
             <form class="form-inline d-flex mb-3">
-                <input type="text" class="form-control mr-2 w-50">
+                <input type="text" id="search" class="form-control mr-2 w-50">
                 <input type="submit" class="btn btn-dark" value="Submit">
             </form>
-            <div class="w-50">
-                <p id="result" class="border-bottom">
-                </p>
+            <div class="w-50" id="result">
+                <ul id="items" class="list-group">
+                    <li class="list-group-item itemgroup">Zoom sastanak u 18h (finalni projekat)</li>
+                    <li class="list-group-item itemgroup">Poslati CV firmama</li>
+                    <li class="list-group-item itemgroup">UI dizajn stranica</li>
+                    <li class="list-group-item itemgroup">Frontend za finalni projekat</li>
+                </ul>
             </div>
             <h2 class="title">Items</h2>
-            <ul id="items" class="list-group">
-                <li class="list-group-item">Posao</li>
-                <li class="list-group-item">Task za posao</li>
-                <li class="list-group-item">Fax</li>
-                <li class="list-group-item">Kod ocnog</li>
+            <ul  class="list-group">
+                <li class="list-group-item">Zoom sastanak u 18h (finalni projekat)</li>
+                <li class="list-group-item">Poslati CV firmama</li>
+                <li class="list-group-item">UI dizajn stranica</li>
+                <li class="list-group-item">Frontend za finalni projekat</li>
             </ul>
         </div>
     </div>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- dom.js -->
     <script src="methods.js"></script>
     <!-- bootstrap and pooper js -->

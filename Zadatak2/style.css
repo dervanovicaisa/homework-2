@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.549);
+    background-color: lightseagreen;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 9vh;
 }
@@ -12,7 +12,7 @@ body {
 .container {
     width: 60%;
     margin: auto;
-    height: 86vh;
+    height: 73vh;
     background-color: white;
     border-radius: 30px;
 }
@@ -33,20 +33,24 @@ header {
 
 .grid-items {
     display: grid;
-    grid-template-columns: 10vw 10vw 10vw;
-    grid-template-rows: 10vw 10vw 10vw;
-    width: 30vw;
+    grid-template-columns: 7vw 7vw 7vw;
+    grid-template-rows: 7vw 7vw 7vw;
+    width: 21vw;
     margin: auto;
+    background-color: lightseagreen;
 }
 
-.grid-item-1,
-.grid-item-2,
-.grid-item-3,
-.grid-item-4,
-.grid-item-5,
-.grid-item-6,
-.grid-item-7,
-.grid-item-8,
-.grid-item-9 {
-    border: 1px solid black;
+.cell{
+    border: 1px solid white;
+    padding: 2.7rem;
+    color: white;
+}
+.game--restart {
+    border: none;
+    background-color: lightseagreen;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    margin-left: 26.3vw;
+    margin-top: 3vh;
 }
